@@ -5,9 +5,9 @@ def display_board(board)
   puts "-----------"
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
-i = 0
 # code your input_to_index and move method here!
 def input_to_index(board, move)
+  i = 0 #just for now
   piece = ["X", "O"]
   if board[move.to_i] == " "
     board[move.to_i] = piece[i%2]
