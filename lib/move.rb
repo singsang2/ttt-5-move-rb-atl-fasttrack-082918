@@ -13,5 +13,5 @@ end
 def move(board, index, mark)
   if board[move.to_i-1] == " "
     board[move.to_i-1] = mark
-    //display_board(board)
+    #display_board(board)
   end
