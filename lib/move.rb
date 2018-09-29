@@ -8,6 +8,7 @@ end
 # code your input_to_index and move method here!
 def input_to_index(move)
   i = 0 #just for now
+  board=[" "," "," "," "," "," "," "," "] #for now
   piece = ["X", "O"]
   if board[move.to_i-1] == " "
     board[move.to_i-1] = piece[i%2]
