@@ -10,5 +10,5 @@ end
 def input_to_index(move)
   piece = ["X", "O"]
   if board[move.to_i] == " "
-    
+    board[move.to_i] = 
 end
