@@ -10,7 +10,7 @@ def input_to_index(user_input)
   return user_input.to_i
 end
 
-def move()
+def move(board, index, piece)
     i = 0 #just for now
   board=[" "," "," "," "," "," "," "," "] #for now
   piece = ["X", "O"]
