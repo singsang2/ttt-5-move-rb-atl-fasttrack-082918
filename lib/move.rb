@@ -9,8 +9,8 @@ end
 def input_to_index(board, move)
   i = 0 #just for now
   piece = ["X", "O"]
-  if board[move.to_i] == " "
-    board[move.to_i] = piece[i%2]
+  if board[move.to_i-1] == " "
+    board[move.to_i-1] = piece[i%2]
     i++
     display_board(board)
   end
