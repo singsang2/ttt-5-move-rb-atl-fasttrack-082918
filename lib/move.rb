@@ -12,5 +12,7 @@ def input_to_index(move)
   if board[move.to_i] == " "
     board[move.to_i] = piece[i%2]
     i++
+    display_board(board)
   end
+  
 end
