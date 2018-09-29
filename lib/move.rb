@@ -12,7 +12,7 @@ end
 
 def move(board, index, mark)
   if board[move.to_i-1] == " "
-    board[move.to_i-1] = piece[i%2]
+    board[move.to_i-1] = mark
     i++
     display_board(board)
   end
