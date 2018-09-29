@@ -10,7 +10,7 @@ def input_to_index(user_input)
   return user_input.to_i-1
 end
 
-def move(board, index, mark)
+def move(board, index, mark="X")
   if board[index] == " "
     board[index] = mark
     return board
