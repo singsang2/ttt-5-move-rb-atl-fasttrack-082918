@@ -10,7 +10,7 @@ def input_to_index(user_input)
   return user_input.to_i
 end
 
-def move(board, index, piece)
+def move(board, index, mark)
   if board[move.to_i-1] == " "
     board[move.to_i-1] = piece[i%2]
     i++
