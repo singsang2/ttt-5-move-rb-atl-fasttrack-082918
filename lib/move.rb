@@ -11,8 +11,8 @@ def input_to_index(user_input)
 end
 
 def move(board, index, mark)
-  if board[index -1 ] == " "
-    board[index-1] = mark
+  if board[index] == " "
+    board[index] = mark
     return board
   end
 end
